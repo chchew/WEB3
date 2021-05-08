@@ -1,11 +1,8 @@
 # WEB3
 Execution commands
 ```bash
-ganache-cli 
+$ ganache-cli 
 ```
 ```bash
-cd app
-```
-```bash
-npm run dev
+$ npm run dev
 ```
