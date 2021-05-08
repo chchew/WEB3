@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>WEB3 - Carlos Chew</title>
+  </head>
+  <style>
+    input {
+      display: block;
+      margin-bottom: 12px;
+    }
+  </style>
+  <body>
+    <h1>WEB3 - Carlos Chew</h1>
+
+
+    <h1>Enviar Eth</h1>
+
+    <label for="amount">Cantidad:</label>
+    <input type="text" id="amount" placeholder="e.g. 95" />
+
+    <label for="receiver">Direccion:</label>
+    <input
+      type="text"
+      id="receiver"
+      placeholder="e.g. 0x93e66d9baea28c17d9fc393b53e3fbdd76899dae"
+    />
+
+    <button onclick="App.sendCoin()">Mandar</button>
+
+    <p id="status"></p>
+
+    <script src="index.js"></script>
+  </body>
+</html>
